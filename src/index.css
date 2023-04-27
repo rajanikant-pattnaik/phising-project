@@ -1,13 +1,91 @@
+html,
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #c6426e,
+    #642b73
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #c6426e,
+    #642b73
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:aliceblue;
+}
+.login-class {
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.txt-1 {
+  font-family: "Radio Canada";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  /* identical to box height */
+
+  color: #3f2480;
+}
+.txt-2 {
+  font-family: "Radio Canada";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: -35px;
+  /* identical to box height */
+
+  color: #e70707;
+}
+.login-class-btn {
+  justify-content: space-between;
+}
+.btn {
+  /* position: absolute; */
+  width: 105.45px;
+  height: 51.36px;
+}
+.topnav{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.topnav li{
+  margin: 40px;
+  font-size: 1.5rem;
+}
+.topnav li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color:red;
+  background-color: pink;
+}
+.userHomePage-components{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.user-check{
+  margin-left: 350px;
+  margin-top: 100px;
+  width: 500px;
+  text-align: center;
+}
+.user-check label{
+  font-size: 1.5rem;
+}
+.user-check input{
+  margin-top: 35px;
+  width: 100%;
+  height: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content-blacklist{
+  display: flex;
+}
+
+.cb-1{
+  width:500px;
 }
