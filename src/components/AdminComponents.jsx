@@ -60,6 +60,7 @@ const AddToBlacklist=()=>{
          }
          </section >
          {
+          // eslint-disable-next-line eqeqeq
           values!==undefined&&values.status==200?(
             <section className="cb-1">
             <p>continent-{values.continent}</p>
